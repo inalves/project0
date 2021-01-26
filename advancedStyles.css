@@ -1,0 +1,116 @@
+#buttonAdvanced {
+  padding: 10px;
+  border-radius: 5px;
+  color: #333;
+  font-size: 15px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+}
+
+#container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#linksContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  background-color: #eee;
+}
+
+#linksContainer a {
+  text-decoration: none;
+  margin: 5px;
+  color: #555;
+}
+
+#googleLogo {
+  margin: 10px;
+}
+
+#googleLogo img {
+  width: 100px;
+}
+
+#googleLogo span {
+  color: #4285f4;
+}
+
+#buttonAdvanced {
+  background-color: #4862f1;
+  color: white;
+  border: 1px solid #4862f1;
+}
+
+#buttonAdvanced:hover {
+  border: 1px solid #fff;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  max-width: 450px;
+}
+
+form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px;
+}
+
+form div input {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+}
+
+form div label {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #777;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 30px;
+  background-color: #eee;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #666;
+}
+/*# sourceMappingURL=advancedStyles.css.map */

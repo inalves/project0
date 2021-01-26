@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="advancedStyles.css" />
+    </head>
+    <body>
+        
+        <div id="linksContainer">
+            <div id="googleLogo">
+                <img
+                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    alt="Google Advanced Search"
+                />
+                <span>advanced search</span>
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="images.html">Images</a>
+                <a href="advanced.html">Advanced Search</a>
+            </div>
+        </div>
+        <div id="container">
+        <form action="https://google.com/search">
+            <label for="">Find pages with...</label>
+            <div>
+                <label for="">all these words: </label>
+                <input type="text" name="q" />
+            </div>
+            <div>
+                <label for="">this exact word or phrase:</label>
+                <input type="text" />
+            </div>
+            <div>
+                <label for="">any of these words:</label>
+                <input type="text" />
+            </div>
+            <div>
+                <label for="">none of these words:</label>
+                <input type="text" />
+            </div>
+
+            <div id="buttonsContainer">
+                <input
+                    id="buttonAdvanced"
+                    type="submit"
+                    value="Advanced Search"
+                />
+            </div>
+        </form>
+    </div>
+        <footer>
+            <span>CS50 Project 0 | 2020</span>
+            <span>Made by Juan Inalves Castro</span>
+        </footer>
+    </body>
+</html>

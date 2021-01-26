@@ -1,0 +1,122 @@
+form #buttonsContainer input[type="submit"] {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 5px;
+  color: #333;
+  font-size: 15px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#linksContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#linksContainer a {
+  text-decoration: none;
+  margin: 5px;
+  color: #555;
+}
+
+#googleLogo {
+  margin: 10px;
+}
+
+#googleLogo span {
+  margin-left: -60px;
+  color: #4285f4;
+}
+
+form {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form input[type="text"] {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  font-size: 20px;
+}
+
+form #buttonsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 300px;
+}
+
+form #buttonsContainer input[type="submit"]:hover {
+  border: 1px solid #d1d1d1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 30px;
+  background-color: #eee;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #666;
+}
+
+/*----------MEDIA QUERIES--------------*/
+@media (max-width: 575px) {
+  #linksContainer {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  form {
+    width: 85%;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px;
+  }
+  footer span {
+    margin: 10px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
